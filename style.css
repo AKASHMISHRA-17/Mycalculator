@@ -1,31 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
-html, body {
-  height: 100%;
-  width: 100%;
-  color: yellow;
-  font-family: 'algerian', sans-serif; 
-}
-body {
-  background-color: black;
-}
-.button{
-  width: 66px;
-  padding: 20px;
-  margin: 0 3px;
-  background-color: red;
-  border: 2px solid white;
-  border-radius: 9px;
-  cursor: pointer;
+#calculator
+{
+  border:1px solid rgb(59, 59, 58);
+  border-radius:5px;
+  width: 200px;
+
+  }
+#display
+{ 
+  margin:10px;
+  width: 85%;
+ font-size: 25px;
 }
 
-.row{
-  margin: 8px 0;
+.button-container
+{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.row input{
-  width: 291px;
-  font-size: 20px;
-    margin: 0;
-    padding: 10px 0px;
-    border: 2px solid orange;
-    border-radius: 5px;
+.button
+{
+width: 45px;
+height: 45px;
+margin: 3px;
+background-color: rgba(0, 187, 255, 0.941);
+color:rgba(8, 8, 8, 0.997);
+
 }
